@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header {
+    background-color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+    width: 40px;
+    height: auto;
+}
+.logoName {
+    font-size: 24px;
+    font-weight: 700;
+}
+/* Navigation Links */
+.navItem ul,.navLogo ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.navItem ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color:#000;
+    transition: all .5s;
+}
+.navItem ul li a:hover{
+    color: #B88E2F;
+}
+/* Icons */
+.navLogo ul li img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.screen{
+    background-image: url('./Rectangle\ 1.png');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.scr-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.pageid{
+    display: flex;
+
+}
+.contact, .home{
+    font-weight: 500;
+}
+.con{
+    position: relative;
+    margin-left: 5px;
+}
+.touch{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.info{
+    color: #9F9F9F;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 480px;
+    line-height: 20px;
+}
+.container{
+    padding-top: 80px;
+    overflow: hidden;
+}
+.col-1{
+    width: 260px;
+    height: 537px;
+}
+.col-1 h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.col-1-1,.col-1-2,.col-1-3{
+    display: flex;
+}
+.col-1-1 img{
+    width: 25px;
+    height: 25px;
+}
+.semi-container1{
+    display: flex;
+    padding: 150px 200px 70px 200px;
+    justify-content: space-around;
+}
+.row-1,.row-2,.row-3{
+    margin-top: 50px;
+}
+.col-1 p{
+    margin-left: 45px;
+}
+.col-1-2 img{
+    width: 22.27px;
+    height: 22.27px;
+    margin-top: 5px;
+}
+.col-1-3 img{
+    width: 23px;
+    height: 23px;
+    margin-top: 5px;
+}
+.col-2{
+    margin-top: 55px;
+}
+.row1,.row2,.row3,.row4,.row5,.row6,.row7,.row8{
+    margin-bottom: 20px;
+}
+.col-2 label{
+    font-weight: 500;
+}
+.col-2 input{
+    width: 428.7px;
+    height: 38px;
+    padding: 29px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    padding-left: 20px;
+}
+#message{
+    padding: 10px;
+    padding-top: 18px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 120px;
+    width: 430.7px;
+    border: 1px solid #9F9F9F;
+}
+.submit{
+    width: 200px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #B88E2F;
+    background-color: #B88E2F;
+    color: #fff;
+    font-weight: 400;
+}
+.shipment img{
+    height: 60px;
+    width: 60px;
+}
+.shipment{
+    height: 270px;
+    background-color: #FAF3EA;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px;
+    overflow: hidden;
+}
+.trophy-text,.warrenty-text,.shipping-text,.support-text{
+    display: flex;
+}
+.shipment h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.shipment p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #9F9F9F;
+    margin-left: 10px;
+}
+.footer{
+    margin-top: 20px;
+    padding-left: 90px;
+    border-top: 1px solid #d9d9d9;
+    height: inherit;
+    overflow: hidden;
+}
+.footer-content1{
+    display: flex;
+}
+.footer-all{
+    width: 93%;
+    border-bottom: 1px solid #d9d9d9;
+}
+.footer-content{
+    margin: 50px;
+    margin-left: -180px;
+    width: 900px;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 300px 0 0;
+}
+.col1{
+    width: 285px;
+    height: 72px;
+    color: #9F9F9F;
+    margin-top: 25px;
+}
+.small-headings{
+    display: flex;
+    justify-content: space-between;
+}
+.small-headings h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9F9F9F;
+}
+.links a,.helps a{
+    color: #000;
+    font-weight: 500;
+    transition: all .5s;
+}
+.links a:hover,.helps a:hover{
+    color: #B88E2F;
+}
+.newsletter button{
+    font-size: 14px;
+    font-weight: 500;
+}
+#email2{
+    width: 200px;
+}
+#email2,.newsletter button{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.links,.helps,.newsletter{
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+.reservation{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1440px) {
+    #footer .footer-content .col1{
+        background-color: skyblue;
+        width: 300px;
+        margin-left: -15px;
+    }
+}
+@media (max-width: 1024px) {
+    #footer{
+        padding: 0 40px;
+    }
+    .container .info{
+        margin: 0 200px;
+    }
+    .container .semi-container1{
+        margin: 0 -100px;
+    }
+    #shipment{
+        padding: 60px 130px ;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #shipment .support-text{
+        margin-right: 70px;
+    }
+    #footer .footer-all{
+        width: 100%;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    #footer .small-headings{
+        margin-left: -60px;
+    }
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navItem ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+    }
+        .navLogo ul {
+            margin-top: 10px;
+            gap: 20px;
+        }
+        .container .info{
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        .container .semi-container1{
+            display: flex;
+            justify-content: space-between;
+            padding: 100px 150px 70px 150px;
+        }
+        #name,#email,#subject,.row8 #message{
+            width: 300px;
+        }
+        #add{
+            width: 27.59px;
+            height: 27.59px;
+        }
+        #submit{
+            width:120px;
+            height: 40px;
+        }
+        #shipment{
+            padding: 100px 100px 100px 220px;
+            align-items: center;
+            gap: 30px;
+            height: inherit;
+        }
+        #footer .footer-all .footer-content1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #footer .footer-all .footer-content .small-headings{
+            width: 84%;
+            margin-left: 180px;
+        }
+}
+@media (max-width: 425px) {
+    .container .info{
+        margin: 0 80px;
+    }
+    .container .semi-container1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container .info{
+        margin: 0 35px;
+    }
+    #name,#email,#subject,.row8 #message{
+        width: 323px;
+    }
+    #shipment{
+        padding: 100px 50px 100px 30px;
+        align-items: center;
+        gap: 30px;
+        height: inherit;
+    }
+    #submit{
+        width: 100%;
+    }
+    #footer .footer-all .footer-content .small-headings{
+        display: flex;
+        flex-wrap: wrap;
+        height: inherit;
+        width: 42%;
+        margin-top: -50px;
+        gap: 40px;
+        margin-left: 180px;
+    }
+}
+@media (max-width: 375px) {
+    .container .touch{
+        font-size: 26px;
+    }
+    .container #name,#email,#subject{
+        width: 280px;
+        padding: 20px;
+        padding-left: 10px;
+    }
+    .container .info{
+        margin: 0 30px;
+    }
+    .container #message{
+        width: 280px;
+        padding: 10px;
+    }
+    #shipment h2{
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+    #shipment p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    #shipment img{
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 320px) {
+    .container .touch{
+        font-size: 23px;
+    }
+    .container .semi-container1 .col-1{
+        margin: 0 -20px;
+    }
+    .container .semi-container1 .col-1 h3{
+        font-size: 20px;
+    }
+    .container .semi-container1 .col-1 .address{
+        margin-left: 20px;
+    }
+    .container .semi-container1 .col-2{
+        margin: 0 -20px;
+    }
+    .container #name,#email,#subject{
+        width: 262px;
+    }
+    .container #message{
+        width: 262px;
+    }
+    #shipment{
+        padding: 100px 20px;
+    }
+    #footer .footer-all .footer-content1,.reservation{
+        margin-left: -15px;
+        margin-right: -24px;
+    }
+}
